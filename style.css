@@ -1,1 +1,50 @@
-
+* {
+	box-sizing: border-box;
+}
+body { 
+background-color: #8075ff;
+color: white;
+margin: 0px;
+ }
+link {
+	color: #d368f9;
+}
+.vegeterian {
+	color: black;
+	font-family: "arial";
+	font-size: 25px;
+}
+.nonvegeterian {
+	color: #652205;
+}
+#diff-background {
+	background-color: #cad5ca;
+}
+.sidebar {
+	background-color: #dfebdf;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+}
+.title {
+	height: 60px;
+	width : 100%;
+	border: 1px solid grey;
+}
+.container {
+	position: relative;
+	height: 1000px;
+}
+.content {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	border: 2px solid purple
+	margin: 5px;
+	padding-right: 15px;
+	padding-left:  15px;
+	padding-bottom: 10px;
+}
